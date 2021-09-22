@@ -19,3 +19,7 @@ li.special {
   color: blue;
   font-weight: bold;
 }
+
+li em {
+  color: rebeccapurple;
+}
