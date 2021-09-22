@@ -9,3 +9,8 @@ p, li {
 li {
   list-style-type: square;
 }
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
