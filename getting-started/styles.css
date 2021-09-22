@@ -14,3 +14,8 @@ li {
   color: orange;
   font-weight: bold;
 }
+
+li.special {
+  color: blue;
+  font-weight: bold;
+}
