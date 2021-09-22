@@ -26,3 +26,8 @@ p, li {
 .example {
   width: 150px;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
