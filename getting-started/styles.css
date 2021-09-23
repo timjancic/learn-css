@@ -53,3 +53,13 @@ body h1 + p .special {
   background-color: rebeccapurple;
   transform: rotate(0.8turn);
 }
+
+body {
+  background-color: pink;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: blue;
+  }
+}
