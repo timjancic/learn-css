@@ -10,11 +10,26 @@
     <meta charset="utf-8">
     <title>css exercise 2</title>
     <style>
+      ul {
+        font-size: 200%;
+        line-height: 1.6;
+      }
+
       a {
         border: 5px solid grey;
       }
 
-      
+      a[title] {
+        border-color: pink;
+      }
+
+      a[href*="contact"] {
+        border-color: orange;
+      }
+
+      a[href^="https"] {
+        border-color: green;
+      }
     </style>
   </head>
   <body>
