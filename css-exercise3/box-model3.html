@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+In this example the inline element has a margin, padding and border however the lines above and below are overlapping it.
+What can you add to your CSS to cause the size of the margin, padding, and border to be respected by the other lines, while still keeping the element inline?
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>css exercise 3</title>
+    <style>
+    .box span {
+      background-color: pink;
+      border: 5px solid black;
+      padding: 1em;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">  
+      <p>Veggies es bonus vobis, <span>proinde vos postulo</span> essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+
+      <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+    </div>
+  </body>
+</html>
