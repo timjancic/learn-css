@@ -5,8 +5,40 @@
     <title>Tables Task</title>
 
     <style>
+      /*BORDER COLLAPSE IS VERY IMPORTANT :)*/
       table {
-        font-size: 75%;
+        border-collapse: collapse;
+        font-size: 100%;
+        border-top: 3px solid lightgray;
+        border-bottom: 3px solid lightgray;
+      }
+
+      th, td {
+        padding: 8px;
+      }
+
+      /*right aligning text for 2nd and 3rd columns which contain numbers, avoiding table footer*/
+      thead tr :nth-child(2),
+      tbody tr :nth-child(2),
+      thead tr :nth-child(3),
+      tbody tr :nth-child(3) {
+        text-align: right;
+      }
+
+      /*left aligning text for 1st and 4th columns which contain numbers, avoiding table footer*/
+      thead tr :nth-child(1),
+      tbody tr :nth-child(1),
+      thead tr :nth-child(4),
+      tbody tr :nth-child(4) {
+        text-align: left;
+      }
+
+      tfoot th, tfoot td {
+        border-top: 2px solid lightgray;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: lavender;
       }
     </style>
 
